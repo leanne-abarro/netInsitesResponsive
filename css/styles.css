@@ -680,6 +680,18 @@ for phone - inclusive
         flex: 1 0 84em;
     }
 
+    .formLeft {
+        flex: 1 0 22em;
+    }
+
+    .formRight {
+        flex: 1 0 22em;
+    }
+
+    .formContainer {
+        flex: 1 0 100%;
+    }
+
     .formWrapper .formContainer:nth-of-type(1),
     .formWrapper .formContainer:nth-of-type(2),
     .formWrapper .formContainer:nth-of-type(3) {
