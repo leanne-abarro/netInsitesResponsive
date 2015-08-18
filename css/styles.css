@@ -9,13 +9,21 @@
 .container {
 	display: flex;
 	flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
 	flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
 }
 
 header {
 	display: flex;
 	flex: 0 0 content;
+    -webkit-flex: 0 0 content;
+    -ms-flex: 0 0 content;
 	flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
 	justify-content: space-between;
 	margin-bottom: 1em;
 }
@@ -26,6 +34,8 @@ i .fa .fa-bars {
 
 #nav {
 	flex: 0 0 100%;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
 	height: 0;
 	padding: 0;
 	background-color: rgba(0,0,0,0.2);
@@ -58,6 +68,8 @@ i .fa .fa-bars {
 }
 
 #logo {
+    flex: 0 0 11em;
+    flex: 0 0 11em;
     flex: 0 0 11em;
     height: 3em;
     margin: 1em 12em 1em 1em;
