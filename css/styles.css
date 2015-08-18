@@ -571,7 +571,9 @@ for phone - inclusive
     }
     
     .portfolio .portfolioItem {
-			flex: 1 0 12em;
+			display: flex;
+            flex-direction: column;
+            flex: 1 0 12em;
             background-color: #fff;
             padding: 0.5em 0 2em 0;
 		}
@@ -598,6 +600,7 @@ for phone - inclusive
         .portfolioItem p {
             font-size: 0.9em;
             padding: 0 0.9em;
+            height: 12vh;
         }
 
         .portfolioItem img {
@@ -616,6 +619,7 @@ for phone - inclusive
             background-color: #f45358;
             border-radius: 0.3em;
             transition: all 1s ease;
+            
         }
 
         .viewButton:hover {
@@ -646,12 +650,18 @@ for phone - inclusive
     }
 
     .blogContent {
+        display: flex;
+        flex-direction: column;
         flex: 0 0 80%;
         margin-left: 3em;
     }
 
     .blogItem img {
         margin-top: 0;
+    }
+    
+    .blogItem p {
+        height: 5vh;
     }
 
     .blog h2 {
