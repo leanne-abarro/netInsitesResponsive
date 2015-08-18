@@ -1,0 +1,693 @@
+/*All devices and mobile phone*/
+
+/*for mobile - inclusive*/
+
+.colourWhite {
+    color: #fff;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+header {
+	display: flex;
+	flex: 0 0 content;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 1em;
+}
+
+i .fa .fa-bars {
+    color: #f45358;
+}
+
+#nav {
+	flex: 0 0 100%;
+	height: 0;
+	padding: 0;
+	background-color: rgba(0,0,0,0.2);
+	overflow: hidden;
+	transition: all 1s ease;
+	list-style-type: none;
+	text-transform: uppercase;
+}
+
+#nav.show{
+	height: 11em;
+}
+
+#nav li{
+	height: 2em;
+	padding: 0.3em;
+	text-align: center;
+	transition: all 1s ease;
+	margin-bottom: 0;
+}
+#nav li a{
+	display: block;
+	color: #fff;
+	padding: 0.5em 0;
+	text-decoration: none;
+}
+ 
+#nav li:hover {
+	background-color: rgba(0,0,0,0.5);
+}
+
+#logo {
+    flex: 0 0 11em;
+    height: 3em;
+    margin: 1em 12em 1em 1em;
+}
+
+#logo img {
+	width: 11em;
+}
+
+
+#bars {
+	flex: 0 0 2em;
+	font-size: 1.5em;
+	height: 1em;
+	margin: 1em 0;
+	text-align: center;
+    position: absolute;
+    right: 1em;
+}
+
+#bars i {
+	line-height: 1em;
+    color: #f45358;
+}
+
+
+
+.welcome {
+    flex: 1 1 50em;
+    height: 25em;
+	background-image: url("../images/welcomeBg.jpeg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .welcome h1 {
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        text-shadow: 0.02em 0.02em 0.01em  #000;
+        margin-top: 2em;
+        font-size: 3em;
+    }
+
+    .welcome p {
+    	color: #FFF;
+    	font-family: 'Open Sans', sans-serif;
+    	font-size: 1.2em;
+/*    	font-weight: 600;*/
+    	text-transform: uppercase;
+/*    	text-shadow: 0.04em 0.04em 0.01em #000;*/
+    	text-align: center;
+    	line-height: 1.4em;
+    	padding: 1em 1.5em;
+    	margin-top: 1.4em;
+    }
+
+.services {
+	flex: 1 1 50em ;
+	margin-top: 0.8em;
+    margin-bottom: 1em;
+}
+
+	.services .serviceItem {
+		padding: 0.5em 3em;
+		text-align: center;
+
+	}
+
+	.services .serviceItem:nth-child(3) {
+
+	}
+
+	.services .serviceItem:nth-child(4) {
+
+	}
+h2 {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+h3 {
+	font-size: 1.3em;
+	font-weight: normal;
+	text-align: center;
+}
+
+h4 {
+    font-size: 1.1em;
+	font-weight: normal;
+}
+
+.serviceIcon {
+	width: 7em;
+	margin: 1em 0 2em 0;
+}
+
+.portfolio {
+	flex: 1 1 50em ;
+	margin-top: 1em;
+    background-color: rgba(0,0,0,0.08);
+    padding: 2em 0;
+}
+
+	.portfolio .portfolioItem {
+		padding: 0.5em 3em;
+		text-align: center;
+	}
+    
+    .portfolioItem img {
+        width: 18em;
+        height: 11em;
+        border: 0.1em solid #bbb;
+    }
+
+    .portfolioItem a {
+        text-decoration: none;
+        color: #f45358;
+        transition: all 1s ease; 
+    }
+
+    .portfolioItem a:hover {
+        color: #181818;
+    }
+
+    .portfolioItem .viewButton {
+        display: none;
+    }
+
+
+
+.blog {
+	flex: 1 1 50em ;
+    background-color: #384c58;
+    padding: 2em 0;
+}
+
+	.blog .blogItem {
+	    padding: 1em 3em;
+		text-align: center;
+	}
+
+    .blogItem img {
+        width: 12em;
+        height: 10em;
+        margin: 2em 0;
+    }
+
+    .blogItem h4 {
+        color: #bbb;
+    }
+
+.moreButton {
+    background-color: #f45358;
+    padding: 0.8em 0;
+/*    border: thin solid #fff;*/
+    border-radius: 0.3em;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 1s ease;
+}
+
+.moreButton a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.moreButton:hover {
+    background-color: #181818;
+}
+
+
+.contact {
+	background-image: url("../images/contactBg.jpg");
+	flex: 1 1 50em ;
+    height: 40em;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+    .contact h2 {
+        margin-top: 1em;
+    }
+
+.formContainer {
+    padding: 0.5em 3em;
+}
+
+.formContainer label {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 0.8em;
+}
+
+.formContainer input {
+    width: 100%;
+}
+
+.formContainer textarea {
+    width: 100%;
+}
+
+.formContainer input[type="submit"]:hover {
+    outline: 0;
+}
+
+.sendButton {
+    background-color: #f45358;
+    color: #fff;
+    padding: 0.8em 0;
+/*    border: thin solid #fff;*/
+    border-radius: 0.3em;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 1s ease;
+    border: 0;
+    width: 35%;
+    margin: 0 0 0 17em;
+}
+
+
+.sendButton:hover {
+    background-color: #181818;
+}
+
+.footer {
+	background-color: rgba(0,0,0,0.8);
+	flex: 1 1 50em ;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    padding: 0.5em 3em;
+}
+
+/*
+for phone - inclusive
+@media only screen and (min-width : 26em) {
+    #nav {
+        outline: red thin solid;
+    }
+}
+*/
+
+/*for tablet - inclusive*/
+@media only screen and (min-width : 44em) {
+	#nav {
+        height: auto;
+        flex: 0 0 28em;
+        background-color:rgba(0,0,0,0);
+        margin-right: 5em;
+    }
+    
+    #nav ul{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 1em;
+        margin-bottom: 0;
+    }
+    
+    #nav li:hover {
+        background-color: rgba(0,0,0,0);
+    }
+    
+    #nav li a {
+        color: rgba(0,0,0,0.4);
+        transition: all 1s ease;
+    }
+    
+    #nav li a:hover {
+        color: #f45358;
+    }
+    
+    #logo {
+        flex: 0 0 13em;
+        height: 3em;
+        margin: 1em 5em 1em 5em;
+    }
+
+
+    #logo img {
+        width: 10em;
+    }
+    
+    #bars {
+        display: none
+    }
+    
+    .welcome p {
+        font-size: 1.3em;
+    }
+    
+    .services {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+    .full {
+        flex: 0 0 100%;
+    }
+		.services .serviceItem{
+			flex: 1 0 21em;
+		}
+		
+		.services .serviceItem:nth-of-type(1),
+		.services .serviceItem:nth-of-type(3){
+			margin-left:1em;
+		}
+
+        .services .serviceItem:nth-of-type(2),
+        .services .serviceItem:nth-of-type(4){
+            margin-right:1em;
+        }
+
+	.portfolio {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+		.portfolio .portfolioItem {
+			flex: 1 1 14em;
+		}
+
+		.portfolio .portfolioItem:nth-of-type(1),
+		.portfolio .portfolioItem:nth-of-type(3) {
+			margin-left:1em;
+		}
+
+        .portfolio .portfolioItem:nth-of-type(2),
+        .portfolio .portfolioItem:nth-of-type(4) {
+            margin-right:1em;
+        }
+
+        .portfolio .portfolioItem:nth-of-type(5) {
+            margin: 0 1em;
+        }
+
+	.blog {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+		.blog .blogItem{
+			flex: 1 1 21em;
+		}
+
+		.blog .blogItem:nth-of-type(1) {
+			margin-left:1em;
+		}
+
+        .blog .blogItem:nth-of-type(2) {
+            margin-right:1em;
+        }
+
+    .formContainer {
+        padding: 0.5em 3em;
+        margin: 0 1em;
+    }
+
+    .formContainer input,
+    .formContainer textarea
+     {
+        width: 97%;
+        margin-right: 0;
+        padding: 0.5em;
+    }
+    
+    .sendButton {
+        width: 20%;
+        margin-left: 46em;
+    }
+}
+
+
+
+/*for destop - inclusive*/
+@media only screen and (min-width : 64em) {
+
+    #nav {
+        flex: 0 0 45em;
+    }
+
+    #nav ul {
+        margin-left: 10em;
+    }
+
+    #nav li {
+        flex: 0 0 6em;
+    }
+
+	.services .serviceItem{
+			flex: 1 0 15em;
+            margin-top: 2em;
+	}
+		
+		.services .serviceItem:nth-of-type(1),
+		.services .serviceItem:nth-of-type(2),
+		.services .serviceItem:nth-of-type(3),
+        .services .serviceItem:nth-of-type(4){
+			margin-left:1em;
+		}
+
+        .services .serviceItem:nth-of-type(3),
+        .services .serviceItem:nth-of-type(4) {
+            margin-right: 1em;
+        }
+
+    .portfolio h2 {
+        margin-bottom: 2em;
+    }
+
+	.portfolio .portfolioItem {
+			flex: 1 0 12em;
+		}
+
+		.portfolio .portfolioItem:nth-child(2),
+		.portfolio .portfolioItem:nth-child(3),
+		.portfolio .portfolioItem:nth-child(4),
+		.portfolio .portfolioItem:nth-child(5){
+			margin-left:1em;
+		}
+
+    .sendButton {
+
+        margin-left: 63em;
+    }
+
+}
+
+/*for destop - inclusive*/
+@media only screen and (min-width : 84em) {
+
+    #logo {
+        margin-left: 10em;
+    }
+
+    #logo img {
+        width: 12em;
+    }
+
+    #nav {
+        flex: 0 0 70em;
+    }
+
+    #nav ul {
+        margin-left: 25em;
+    }
+
+    .header,
+    .welcome {
+        flex: 1 1 100em;
+    }
+
+    .welcome {
+        height: 40em;
+    }
+
+    .welcome h1 {
+        margin-top: 4em;
+    }
+
+    .welcome p {
+        font-size: 1.6em;
+    }
+    
+    .services {
+        flex: 1 0 84em ;
+        margin-top: 5.8em;
+    }
+
+    .services h2 {
+        margin-bottom: 1em;
+    }    
+
+	.services .serviceItem{
+			flex: 1 0 15em;
+		}
+		
+        .services .serviceItem:nth-of-type(1) {
+            margin-left: 10em;
+        }
+
+		.services .serviceItem:nth-of-type(2),
+		.services .serviceItem:nth-of-type(3),
+		.services .serviceItem:nth-of-type(4){
+			margin-left:1em;
+		}
+
+        .services .serviceItem:nth-of-type(2),
+        .services .serviceItem:nth-of-type(3) {
+            margin-right: 0;
+        }
+
+        .services .serviceItem:nth-of-type(4){
+            margin-right: 10em;
+        }
+    
+    .portfolio {
+        flex: 1 0 84em;
+    }
+    
+    .portfolio .portfolioItem {
+			flex: 1 0 12em;
+            background-color: #fff;
+            padding: 0.5em 0 2em 0;
+		}
+
+        .portfolio .portfolioItem:nth-of-type(1){
+            margin-left: 10em;
+        }
+
+        .portfolio .portfolioItem:nth-of-type(2),
+        .portfolio .portfolioItem:nth-of-type(4){
+            margin-right: 0;
+        }
+
+        .portfolio .portfolioItem:nth-of-type(5){
+            margin-right: 10em;
+        }
+
+		.portfolio .portfolioItem:nth-of-type(2),
+		.portfolio .portfolioItem:nth-of-type(3),
+		.portfolio .portfolioItem:nth-of-type(4) {
+			margin-left:1em;
+		}
+
+        .portfolioItem p {
+            font-size: 0.9em;
+            padding: 0 0.9em;
+        }
+
+        .portfolioItem img {
+            width: 16em;
+            height: 9em;
+        }
+
+        .portfolioItem .viewButton {
+            display: block;
+            width: 23%;
+            margin: 0 auto;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 0.8em;
+            text-transform: uppercase;
+            padding: 0.5em 0.9em;
+            background-color: #f45358;
+            border-radius: 0.3em;
+            transition: all 1s ease;
+        }
+
+        .viewButton:hover {
+            background-color: #181818;
+        }
+
+        .viewButton a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .viewButton a:hover {
+            color: #fff;
+        }
+    
+    .blog {
+        flex: 1 1 84em ;
+        padding: 3em 10em;
+    }
+
+    .blog .blogItem {
+        display: flex;
+        flex: 0 0 100%;
+    }
+
+    .blog .blogItem:nth-of-type(1) {
+        margin-left: 0;
+    }
+
+    .blogContent {
+        flex: 0 0 80%;
+        margin-left: 3em;
+    }
+
+    .blogItem img {
+        margin-top: 0;
+    }
+
+    .blog h2 {
+        margin-bottom: 2em;
+    }
+
+    .blogItem h4 {
+        font-size: 1.5em;
+    }
+
+    .blogItem h4,
+    .blogItem p {
+        text-align: left;
+    }
+
+    .moreButton {
+        width: 10%;
+        font-size: 0.8em;
+    }
+
+    #contact{
+        padding: 3em 10em;
+    }
+
+    .formWrapper {
+        display: flex;
+        flex: 1 0 84em;
+    }
+
+    .formWrapper .formContainer:nth-of-type(1),
+    .formWrapper .formContainer:nth-of-type(2),
+    .formWrapper .formContainer:nth-of-type(3) {
+        flex: 1 0 42em;       
+    }
+
+    .formWrapper .formContainer:nth-of-type(4) {
+        flex: 2 0 60em;
+    }
+
+}
