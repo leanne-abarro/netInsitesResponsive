@@ -69,8 +69,8 @@ i .fa .fa-bars {
 
 #logo {
     flex: 0 0 11em;
-    flex: 0 0 11em;
-    flex: 0 0 11em;
+    -webkit-flex: 0 0 11em;
+    -ms-flex: 0 0 11em;
     height: 3em;
     margin: 1em 12em 1em 1em;
 }
@@ -82,6 +82,8 @@ i .fa .fa-bars {
 
 #bars {
 	flex: 0 0 2em;
+    -webkit-flex: 0 0 2em;
+    -ms-flex: 0 0 2em;
 	font-size: 1.5em;
 	height: 1em;
 	margin: 1em 0;
@@ -99,6 +101,8 @@ i .fa .fa-bars {
 
 .welcome {
     flex: 1 1 50em;
+    -webkit-flex: 1 1 50em;
+    -ms-flex: 1 1 50em;
     height: 25em;
 	background-image: url("../images/welcomeBg.jpeg");
     background-position: top;
@@ -134,6 +138,8 @@ i .fa .fa-bars {
 
 .services {
 	flex: 1 1 50em ;
+    -webkit-flex: 1 1 50em ;
+    -ms-flex: 1 1 50em ;
 	margin-top: 0.8em;
     margin-bottom: 1em;
 }
@@ -174,6 +180,8 @@ h4 {
 
 .portfolio {
 	flex: 1 1 50em ;
+    -webkit-flex: 1 1 50em ;
+    -ms-flex: 1 1 50em ;
 	margin-top: 1em;
     background-color: rgba(0,0,0,0.08);
     padding: 2em 0;
@@ -208,6 +216,8 @@ h4 {
 
 .blog {
 	flex: 1 1 50em ;
+    -webkit-flex: 1 1 50em ;
+    -ms-flex: 1 1 50em ;
     background-color: #384c58;
     padding: 2em 0;
 }
@@ -253,6 +263,8 @@ h4 {
 .contact {
 	background-image: url("../images/contactBg.jpg");
 	flex: 1 1 50em ;
+    -webkit-flex: 1 1 50em ;
+    -ms-flex: 1 1 50em ;
     height: 40em;
     background-position: top;
     background-repeat: no-repeat;
@@ -311,6 +323,8 @@ h4 {
 .footer {
 	background-color: rgba(0,0,0,0.8);
 	flex: 1 1 50em ;
+    -webkit-flex: 1 1 50em ;
+    -ms-flex: 1 1 50em ;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
     padding: 0.5em 3em;
@@ -330,6 +344,8 @@ for phone - inclusive
 	#nav {
         height: auto;
         flex: 0 0 28em;
+        -webkit-flex: 0 0 28em;
+        -ms-flex: 0 0 28em;
         background-color:rgba(0,0,0,0);
         margin-right: 5em;
     }
@@ -356,6 +372,8 @@ for phone - inclusive
     
     #logo {
         flex: 0 0 13em;
+        -webkit-flex: 0 0 13em;
+        -ms-flex: 0 0 13em;
         height: 3em;
         margin: 1em 5em 1em 5em;
     }
@@ -386,14 +404,22 @@ for phone - inclusive
     .services {
 		display: flex;
 		flex-direction: row;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
 		flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
 	}
 
     .full {
         flex: 0 0 100%;
+        -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
     }
 		.services .serviceItem{
 			flex: 1 0 21em;
+            -webkit-flex: 1 0 21em;
+            -ms-flex: 1 0 21em;
 		}
 		
 		.services .serviceItem:nth-of-type(1),
@@ -409,11 +435,17 @@ for phone - inclusive
 	.portfolio {
 		display: flex;
 		flex-direction: row;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
 		flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
 	}
 
 		.portfolio .portfolioItem {
 			flex: 1 1 14em;
+            -webkit-flex: 1 1 14em;
+            -ms-flex: 1 1 14em;
 		}
 
 		.portfolio .portfolioItem:nth-of-type(1),
@@ -433,13 +465,21 @@ for phone - inclusive
 	.blog {
 		display: flex;
 		flex-direction: row;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
 		flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
 	}
 
 		.blog .blogItem{
 			flex: 1 1 21em;
+            -webkit-flex: 1 1 21em;
+            -ms-flex: 1 1 21em;
             display: flex;
             flex-direction: column;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
 		}
     
         .blogItem img {
@@ -488,6 +528,8 @@ for phone - inclusive
 
     #nav {
         flex: 0 0 45em;
+        -webkit-flex: 0 0 45em;
+        -ms-flex: 0 0 45em;
     }
 
     #nav ul {
@@ -496,10 +538,14 @@ for phone - inclusive
 
     #nav li {
         flex: 0 0 6em;
+        -webkit-flex: 0 0 6em;
+        -ms-flex: 0 0 6em;
     }
 
 	.services .serviceItem{
 			flex: 1 0 15em;
+            -webkit-flex: 1 0 15em;
+            -ms-flex: 1 0 15em;
             margin-top: 2em;
 	}
 		
@@ -521,6 +567,8 @@ for phone - inclusive
 
 	.portfolio .portfolioItem {
 			flex: 1 0 12em;
+            -webkit-flex: 1 0 12em;
+            -ms-flex: 1 0 12em;
 		}
 
 		.portfolio .portfolioItem:nth-child(2),
@@ -537,7 +585,11 @@ for phone - inclusive
     .blogContent {
             display: flex;
             flex-direction: column;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
             flex: 0 0 80%;
+            -webkit-flex: 0 0 80%;
+            -ms-flex: 0 0 80%;
             margin-left: 3em;
         }
     
@@ -569,6 +621,8 @@ for phone - inclusive
 
     #nav {
         flex: 0 0 70em;
+        -webkit-flex: 0 0 70em;
+        -ms-flex: 0 0 70em;
     }
 
     #nav ul {
@@ -578,6 +632,8 @@ for phone - inclusive
     .header,
     .welcome {
         flex: 1 1 100em;
+        -webkit-flex: 1 1 100em;
+        -ms-flex: 1 1 100em;
     }
 
     .welcome {
@@ -595,7 +651,9 @@ for phone - inclusive
     }
     
     .services {
-        flex: 1 0 84em ;
+        flex: 1 0 84em;
+        -webkit-flex: 1 0 84em;
+        -ms-flex: 1 0 84em;
         margin-top: 5.8em;
     }
 
@@ -605,6 +663,8 @@ for phone - inclusive
 
 	.services .serviceItem{
 			flex: 1 0 15em;
+            -webkit-flex: 1 0 15em;
+            -ms-flex: 1 0 15em;
 		}
 		
         .services .serviceItem:nth-of-type(1) {
@@ -628,12 +688,18 @@ for phone - inclusive
     
     .portfolio {
         flex: 1 0 84em;
+        -webkit-flex: 1 0 84em;
+        -ms-flex: 1 0 84em;
     }
     
     .portfolio .portfolioItem {
 			display: flex;
             flex-direction: column;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
             flex: 1 0 12em;
+            -webkit-flex: 1 0 12em;
+            -ms-flex: 1 0 12em;
             background-color: #fff;
             padding: 2em 0;
 		}
@@ -697,12 +763,18 @@ for phone - inclusive
     
     .blog {
         flex: 1 1 84em ;
+        -webkit-flex: 1 1 84em ;
+        -ms-flex: 1 1 84em ;
         padding: 3em 10em;
     }
 
         .blog .blogItem {
             flex: 0 0 100%;
+            -webkit-flex: 0 0 100%;
+            -ms-flex: 0 0 100%;
             flex-direction: row;
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
             display: flex;
         }
 
@@ -712,6 +784,8 @@ for phone - inclusive
 
         .blogContent {
             flex: 0 0 80%;
+            -webkit-flex: 0 0 80%;
+            -ms-flex: 0 0 80%;
             margin-left: 3em;
         }
 
@@ -753,10 +827,14 @@ for phone - inclusive
 
     .formLeft {
         flex: 1 0 29em;
+        -webkit-flex: 1 0 29em;
+        -ms-flex: 1 0 29em;
     }
 
     .formRight {
         flex: 1 0 29em;
+        -webkit-flex: 1 0 29em;
+        -ms-flex: 1 0 29em;
     }
 
     .formContainer {
@@ -778,11 +856,15 @@ for phone - inclusive
     .formWrapper .formContainer:nth-of-type(1),
     .formWrapper .formContainer:nth-of-type(2),
     .formWrapper .formContainer:nth-of-type(3) {
-        flex: 1 0 42em;       
+        flex: 1 0 42em;  
+        -webkit-flex: 1 0 42em;  
+        -ms-flex: 1 0 42em;  
     }
 
     .formWrapper .formContainer:nth-of-type(4) {
         flex: 2 0 60em;
+        -webkit-flex: 2 0 60em;
+        -ms-flex: 2 0 60em;
     }
     
     .footer {
